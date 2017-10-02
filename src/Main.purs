@@ -127,7 +127,7 @@ render3DCube = do
 dragEvent main cube _ _ = unsafePartial do
     cube <- select ".cube"
     css {
-      animation: "rotate 5s linear infinite",
+      animation: "rotate 10s linear",
       -- transform: "rotateX(90deg)",
       transitionDuration: "3s"
     } cube
